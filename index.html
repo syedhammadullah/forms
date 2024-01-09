@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)file:///C:/Users/asad/Desktop/FORMS/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+      body {
+        text-align: center;
+      }
+      /* Set a style for the submit button */
+      .registerbtn {
+        background-color: #04aa6d;
+        color: white;
+        padding: 12px 15px;
+        margin: 7px 0;
+        border: none;
+        cursor: pointer;
+        width: 80%;
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+  <body><h1><b style="background-color: Tomato">STUDENT FORM</b></h1>
+  
+    <form action="http://www.example.com/login.php">
+      <p>
+        First Name:
+        <input type="text" name="First name" size="20" maxlength="20" required="required">
+      </p>
+      <p>
+        Last Name:
+        <input type="text" name="Last Name" size="20" maxlength="20" required="required">
+      </p>
+      <p>
+        Password:
+        <input type="password" name="password" size="20" maxlength="20" required="required">
+      </p>
+      <p>
+        <label>Bio: </label>
+        <textarea name="comments" cols="20" rows="4"> </textarea>
+      </p>
+      <p>
+        <b>Gender:</b>
+        <input id="female" type="radio" name="gender" value="f">
+        <label for="female">Female</label>
+        <input id="male" type="radio" name="gender" value="m">
+        <label for="male">Male</label>
+      </p>
+      <fieldset>
+        <legend><b>Interests:</b></legend>
+        <input id="Music" type="checkbox" name="Music" value="M">
+        <label for="Music">Music</label>
+        <input id="Sports" type="checkbox" name="Sports" value="S">
+        <label for="Sports">Sports</label>
+        <input id="Reading" type="checkbox" name="Reading" value="R">
+        <label for="Reading">Reading</label>
+      </fieldset>
+      <p>
+        <b>Country:</b>
+        <select name="Country">
+          <option value="Pakistan">Pakistan</option>
+          <option value="U.S.A">U.S.A</option>
+          <option value="Canada">Canada</option>
+        </select>
+      </p>
+      <p>
+        Click on the "Choose File" button to upload profile:
+
+        <input type="file" id="myFile" name="filename" required="required">
+      </p>
+      <p>
+        <label for="username">Birthdate:</label>
+        <input type="date" name="Birthdate" required="required">
+      </p>
+      <p>
+        Email Address:
+        <input type="email" name="email">
+      </p>
+      <p>
+        Search:
+        <input type="search" name="search" placeholder="Enter your Search">
+      </p>
+      <button type="submit" class="registerbtn">Register</button>
+    </form>
+  
+
+</body></html>
